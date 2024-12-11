@@ -32,7 +32,8 @@
   margin: 0 auto 0;
 }
 
-.input-task, .label-task {
+.input-task, 
+.label-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -47,11 +48,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input, button {
+input, 
+button {
   outline: none;
 }
 
@@ -70,7 +73,8 @@ button:hover {
 }
 
 /* Heading */
-h3, .for-new {
+h3, 
+.for-new {
   color: #333;
   font-weight: 700;
   font-size: 15px;
