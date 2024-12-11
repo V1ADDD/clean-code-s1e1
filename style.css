@@ -43,13 +43,13 @@
   display: flex;
 }
 
-ul {
+#done, #undone {
   margin: 0;
   padding: 0px;
 }
 
-li, 
-h2 {
+.task, 
+.secondary {
   list-style: none;
 }
 
@@ -112,7 +112,7 @@ h2,
 }
 
 /* Task list */
-li {
+.task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -121,7 +121,7 @@ li {
   align-items: center;
 }
 
-li > * {
+.task > * {
   vertical-align: middle;
 }
 
@@ -136,7 +136,7 @@ input[type="checkbox"] {
   width: 226px;
 }
 
-li > .input-task {
+.task > .input-task {
   width: 226px;
 }
 
@@ -157,7 +157,7 @@ li > .input-task {
 }
 
 /* Edit Task */
-li > .input-task {
+.task > .input-task {
   display: none;
 }
 
