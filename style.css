@@ -49,7 +49,7 @@ ul {
 }
 
 li, 
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 }
 
 /* Heading */
-h3, 
+h2, 
 .for-new {
   color: #333;
   font-weight: 700;
